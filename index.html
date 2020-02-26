@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>TwoBytes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<link rel="stylesheet" href="scripts/plugins/jquery-nice-select-1.1.0/css/nice-select.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="hero">
+	
+		<header class="header">
+			<div class="container">
+				<a href="#" class="header__logo">
+					<img src="assets/logo.png"></img>
+				</a>
+				<nav class="nav">
+					<button	class="nav__item-mobile">
+						<span>mobile menu</span>
+					</button>
+					<a href="#" class="nav__item nav__item-active">Home</a>
+					<a href="#" class="nav__item">About Us</a>
+					<a href="#" class="nav__item">Jobs</a>
+					<a href="#" class="nav__item">Clients</a>
+					<a href="#" class="nav__item">Employers</a>
+					<a href="#" class="nav__item">Contact Us</a>
+				</nav>
+			</div>
+		</header>
+		
+		<form class="search">
+			<div class="container">
+				<form action="#">
+					<label for="search__input" class="search__title">I'm looking for..</label>
+					<div class="search__submit">
+						<input id="search__input" type="search" placeholder="Enter a Job Description" name="search" required>
+						<button type="submit"><i class="fas fa-search"></i>Search</button>
+					</div>
+					<div class="search__options">
+						<input id="fulltime" class="search__checkbox" name="fulltime" type="checkbox">
+						<label for="fulltime" class="search__checkbox-label">Full Time</label>
+						<input id="parttime" class="search__checkbox" name="parttime" type="checkbox">
+						<label for="parttime" class="search__checkbox-label">Part Time / Casual / Freelance</label>
+						<select>
+							<option><i class="fas fa-angle-down"></i>Select your Location</option>
+							<option>Ukraine</option>
+							<option>USA</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</form>
+		
+	</div>
+		
+		<main class="main">
+			
+			<section class="intro is-separated">
+				<div class="container">
+					<h3 class="intro__heading"><i>We're leaders in</i><br>Creative Digital Recruitment</h3>
+					<p>Based in Surry Hills, the creative hub of Sydney we are surrounded by creativity and that reflects on the type of jobs we recruit for.</p>
+					<button class="btn" type="submit">Find out more about us!</button>
+				</div>
+			</section>
+			
+
+			<section class="subscribe is-separated">
+				<div class="container">
+					<form action="#" class="subscribe__form">
+						<label for="email">Subscribe to our Job Seeker Mailing List
+						</label>
+						<div class="subscribe__form-content">
+							<input id="email" type="email" placeholder="Enter Your Email Address" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+							<button type="submit" class="fa fa-envelope">submit</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			
+			</main>
+			
+			<footer	class="footer is-separated">
+				<div class="container">
+					<section class="footer__info">
+							<a class="footer__info-email" href="mailto:hello@twobytes.com.au" ><i class="fa fa-envelope"></i>hello@twobytes.com.au</a>
+							<p>Copyright &copy; 2014 Two Bytes Consulting.<a class="footer__info-terms" href="#">Terms & Policies.</a></p>
+					</section>
+					<section class="footer__social">
+						<img src="https://via.placeholder.com/50">
+						<img src="https://via.placeholder.com/50">
+					</section>
+				</div>
+			</footer>
+		<script	src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="scripts/plugins/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+	<script	src="scripts/scripts.js"></script>
+</body>
+</html>
